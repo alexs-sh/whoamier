@@ -1,0 +1,8 @@
+x86_64-gcc:
+  image: debian:12
+  script:
+    - whoami
+  tags:
+    - docker
+
+
